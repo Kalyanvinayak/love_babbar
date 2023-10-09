@@ -161,7 +161,7 @@ int main()
 {
     babbar obj;
 
-    int sw;
+    int he;
     do
     {
         cout << "You've entered the binary search program tell me what operation do you want to perform regarding binary search . " << endl
@@ -174,9 +174,9 @@ int main()
              << "Enter 7 : To find the square root of a given number " << endl
              << "Enter 8 : To find an element in 2D Matrix"<<endl
              << "Enter 0 : To quit" << endl;
-        cin >> sw;
+        cin >> he;
 
-        switch (sw)
+        switch (he)
         {
         case 0:
         {
@@ -353,4 +353,5 @@ int main()
     } while (sw != 0);
     cout << "Program Ended successfully" << endl;
     return 0;
+    
 }
